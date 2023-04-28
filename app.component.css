@@ -1,0 +1,11 @@
+.header__title {
+    font-size: 1.9em;
+    font-weight: 900;
+    margin-left: 10px;
+    text-align: center;
+  }
+  .made-in-india {
+    width: 100px;
+    height: auto;
+    margin-right: 0px;
+  }

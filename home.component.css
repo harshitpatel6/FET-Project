@@ -1,0 +1,65 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+/* Container */
+.container {
+  font-family: 'Inter', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Title */
+h1 {
+  font-size: 2.4em;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* List */
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* List Item */
+li {
+  flex: 1 0 calc(33.333% - 20px);
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Links */
+a {
+  display: block;
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #fff;
+  text-decoration:dotted;
+  text-align: center;
+  background-color: #007aff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+a:hover {
+  background-color: #0066d6;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0.5, 0.2);
+}
+body {
+  background-color: #ff9340e2;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}

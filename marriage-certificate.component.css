@@ -1,0 +1,107 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+/* Container */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Inter', sans-serif;
+}
+
+/* Form elements */
+label {
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input {
+  padding: 12px;
+  font-size: 1em;
+  border: none;
+  border-bottom: 2px solid #c8c8c8;
+  margin-bottom: 30px;
+  background: transparent;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #007aff;
+}
+
+button[type="submit"] {
+  padding: 12px 24px;
+  background-color: #007aff;
+  color: white;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"]:hover {
+  background-color: #0066d6;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+button[type="submit"]:disabled {
+  background-color: #c8c8c8;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* Error messages */
+.error {
+  color: #e74c3c;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+/* Form title */
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 2.2em;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #333;
+  text-align: center;
+}
+.body {
+    background-color: #ff9340e2; /* Apple-like background color */
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+  }
+.ss{
+  font-size: 100px;
+  color: rgb(21, 0, 255);
+
+}  
+
+
+
+.upload-box{
+  color: #007aff;
+  background-color: #23d4d7e2;
+  border: solid;
+  size-adjust: 15px;
+}
+
+  .upload-box #id-proof-preview {
+    max-width: 100%;
+    max-height: 500px;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    overflow: auto;
+    size: 100px;
+  }
